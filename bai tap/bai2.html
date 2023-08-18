@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header header header header "
+        "section section article article"
+        "section section aside aside"
+        "section section footer footer   "
+        " abc abc footer footer ";
+      grid-template-rows: 200px 100px 100px 100px 100px;
+      width: 50%;
+    }
+    .header {
+      grid-area: header;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7LVJX0xeeOQthXLL3PYzhZADzhvHfJbrL5g&usqp=CAU);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .section {
+      grid-area: section;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVeWaVHzR129G_RTLQxFjadJaPO5Smpdtbg&usqp=CAU);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+      vertical-align: bottom;   
+      
+      
+    }
+    .article {
+      grid-area: article;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwddBdwyERGeyZXZ9G6cqKScOIiOg-0GeKg&usqp=CAU);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .aside {
+      grid-area: aside;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjGOQLL2wkyf6JZHN6cP0s3fvnDxg89DtoRA&usqp=CAU);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .footer {
+      grid-area: footer;
+      background-color: rgb(162, 21, 21);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .abc {
+      grid-area: abc;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9L5SRhh0h-MsjeI1Nla9YCM2qxU900i9rnQ&usqp=CAU);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    button{
+        width: 200px;height: 40px;
+        position: relative;top: 130px;left: 130px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+   
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">We like balloonsYou can find all kinds of ballon related things here</div>
+      <div class="section">Special Shapes <br>Why are some of them so scary looking</div>
+      <div class="article">Angry people at ballons fiestas <br>Hot air ballon. A bit weather sentive</div>
+      <div class="aside">Ballon photos <br>I have quite a few</div>
+      <div class="footer">Sign up for more information about ballons.
+            <button>Sign me up!</button>
+      </div>
+      <div class="abc">10 things you discover when taking a ballon ride <br>Number 8 will AMre you.</div>
+    </div>
+  </body>
+</html>

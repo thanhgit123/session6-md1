@@ -1,0 +1,28 @@
+.sach-cha{
+    width: 50%;
+    height: 700px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.book-one{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.sach-1{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.sach-2{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,49 @@
+html{
+    font-size: 20px;
+}
+.card{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 40px;
+}
+.card-img{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.img-beach{
+    width: 20%;
+    height: 200px; 
+}
+.card-last{
+    text-align: center;
+    margin: 100px;
+}
+.card-last2{
+    text-align: center ;
+    border: 1px solid black;
+    height: 40px;
+    margin: auto;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 18px;
+}
+ @media screen and (max-width:768px) {
+       
+        h1,p{
+            font-size:20px ;
+        }
+        .card-img{
+            display: block;
+           
+        }
+        body{
+            background-color: azure;
+        }
+        
+    } 
+
+    
